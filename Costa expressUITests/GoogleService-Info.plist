@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>427129367963-e4tljts58dtq1cr5rvsto24rup4gfr8n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.427129367963-e4tljts58dtq1cr5rvsto24rup4gfr8n</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC_zvx2pF7K_vr42ptla_76zU57JjZVb6c</string>
+	<key>GCM_SENDER_ID</key>
+	<string>427129367963</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>co.GAI.Costa-express</string>
+	<key>PROJECT_ID</key>
+	<string>costa-express-b5019</string>
+	<key>STORAGE_BUCKET</key>
+	<string>costa-express-b5019.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:427129367963:ios:4bc970cc1c6e7d9afc853e</string>
+	<key>DATABASE_URL</key>
+	<string>https://costa-express-b5019-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

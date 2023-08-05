@@ -1,0 +1,6 @@
+framework module Pods_Costa_express_Costa_expressUITests {
+  umbrella header "Pods-Costa express-Costa expressUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

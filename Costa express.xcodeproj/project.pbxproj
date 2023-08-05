@@ -3,18 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		127D31371AE8E4940595506D /* Pods_Costa_expressTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1408087D3883E3713F1C6143 /* Pods_Costa_expressTests.framework */; };
+		9436D37C28BAAD3E00A430A6 /* CheckPermisscionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9436D37B28BAAD3E00A430A6 /* CheckPermisscionViewController.swift */; };
+		9437B4B628BC3C180036F4EB /* Pods_Costa_express.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2733A46131C742E3E3E06E18 /* Pods_Costa_express.framework */; };
+		94AF062028B9B11500FB82E7 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF061F28B9B11500FB82E7 /* LocationService.swift */; };
+		94FE92F728BD78E100B8F282 /* TrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE92F628BD78E100B8F282 /* TrackingViewController.swift */; };
+		C73765AA27E6C80800CB9790 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73765A927E6C80700CB9790 /* LoginViewController.swift */; };
+		C77BFF4427E7F8C000186853 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C77BFF4327E7F8C000186853 /* GoogleService-Info.plist */; };
+		C77BFF4527E7F8C000186853 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C77BFF4327E7F8C000186853 /* GoogleService-Info.plist */; };
+		C77BFF4727E8B71F00186853 /* RecoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77BFF4627E8B71F00186853 /* RecoverViewController.swift */; };
 		C7871FAB27E3F2BC00C189B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7871FAA27E3F2BC00C189B1 /* AppDelegate.swift */; };
 		C7871FAD27E3F2BC00C189B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7871FAC27E3F2BC00C189B1 /* SceneDelegate.swift */; };
-		C7871FAF27E3F2BC00C189B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7871FAE27E3F2BC00C189B1 /* ViewController.swift */; };
 		C7871FB227E3F2BC00C189B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7871FB027E3F2BC00C189B1 /* Main.storyboard */; };
 		C7871FB427E3F2BE00C189B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7871FB327E3F2BE00C189B1 /* Assets.xcassets */; };
 		C7871FB727E3F2BE00C189B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7871FB527E3F2BE00C189B1 /* LaunchScreen.storyboard */; };
 		C7871FC227E3F2BF00C189B1 /* Costa_expressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7871FC127E3F2BF00C189B1 /* Costa_expressTests.swift */; };
 		C7871FCD27E3F2BF00C189B1 /* Costa_expressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7871FCC27E3F2BF00C189B1 /* Costa_expressUITests.swift */; };
+		C7871FDD27E5463700C189B1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7871FDC27E5463700C189B1 /* MainViewController.swift */; };
+		C7871FDF27E56C7A00C189B1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7871FDE27E56C7A00C189B1 /* RegisterViewController.swift */; };
+		E022EE1DDFC832069496FBBD /* Pods_Costa_express_Costa_expressUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58E89F64EAA57A5E01AB571 /* Pods_Costa_express_Costa_expressUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +45,38 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9437B4B828BC3C180036F4EB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1408087D3883E3713F1C6143 /* Pods_Costa_expressTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Costa_expressTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2733A46131C742E3E3E06E18 /* Pods_Costa_express.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Costa_express.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB0D76B29CDB4B9A788C582 /* Pods-Costa express.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Costa express.release.xcconfig"; path = "Target Support Files/Pods-Costa express/Pods-Costa express.release.xcconfig"; sourceTree = "<group>"; };
+		5F37DEBDF1A52E009891FB89 /* Pods-Costa express-Costa expressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Costa express-Costa expressUITests.debug.xcconfig"; path = "Target Support Files/Pods-Costa express-Costa expressUITests/Pods-Costa express-Costa expressUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		77795ABE4CB47B50FBAF395F /* Pods-Costa express.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Costa express.debug.xcconfig"; path = "Target Support Files/Pods-Costa express/Pods-Costa express.debug.xcconfig"; sourceTree = "<group>"; };
+		7E900A1FFC588851D173C49C /* Pods-Costa expressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Costa expressTests.debug.xcconfig"; path = "Target Support Files/Pods-Costa expressTests/Pods-Costa expressTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85A0D21E5F9ABE52528E1A53 /* Pods-Costa expressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Costa expressTests.release.xcconfig"; path = "Target Support Files/Pods-Costa expressTests/Pods-Costa expressTests.release.xcconfig"; sourceTree = "<group>"; };
+		9436D37B28BAAD3E00A430A6 /* CheckPermisscionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPermisscionViewController.swift; sourceTree = "<group>"; };
+		94AF061F28B9B11500FB82E7 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		94FE92F628BD78E100B8F282 /* TrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingViewController.swift; sourceTree = "<group>"; };
+		971CA6A14696C3050DAF21B5 /* Pods-Costa express-Costa expressUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Costa express-Costa expressUITests.release.xcconfig"; path = "Target Support Files/Pods-Costa express-Costa expressUITests/Pods-Costa express-Costa expressUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B58E89F64EAA57A5E01AB571 /* Pods_Costa_express_Costa_expressUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Costa_express_Costa_expressUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73765A927E6C80700CB9790 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C77BFF4327E7F8C000186853 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C77BFF4627E8B71F00186853 /* RecoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverViewController.swift; sourceTree = "<group>"; };
 		C7871FA727E3F2BC00C189B1 /* Costa express.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Costa express.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7871FAA27E3F2BC00C189B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7871FAC27E3F2BC00C189B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C7871FAE27E3F2BC00C189B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7871FB127E3F2BC00C189B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7871FB327E3F2BE00C189B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7871FB627E3F2BE00C189B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +87,9 @@
 		C7871FC827E3F2BF00C189B1 /* Costa expressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Costa expressUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7871FCC27E3F2BF00C189B1 /* Costa_expressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Costa_expressUITests.swift; sourceTree = "<group>"; };
 		C7871FCE27E3F2BF00C189B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7871FDC27E5463700C189B1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C7871FDE27E56C7A00C189B1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C78A4E0128A1304E00C52AD2 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9437B4B628BC3C180036F4EB /* Pods_Costa_express.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				127D31371AE8E4940595506D /* Pods_Costa_expressTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +113,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E022EE1DDFC832069496FBBD /* Pods_Costa_express_Costa_expressUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E4B15B1B8D080044FA4D10B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C78A4E0128A1304E00C52AD2 /* FirebaseAuth.framework */,
+				2733A46131C742E3E3E06E18 /* Pods_Costa_express.framework */,
+				B58E89F64EAA57A5E01AB571 /* Pods_Costa_express_Costa_expressUITests.framework */,
+				1408087D3883E3713F1C6143 /* Pods_Costa_expressTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6831ED9F2681A8770713B880 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77795ABE4CB47B50FBAF395F /* Pods-Costa express.debug.xcconfig */,
+				2AB0D76B29CDB4B9A788C582 /* Pods-Costa express.release.xcconfig */,
+				5F37DEBDF1A52E009891FB89 /* Pods-Costa express-Costa expressUITests.debug.xcconfig */,
+				971CA6A14696C3050DAF21B5 /* Pods-Costa express-Costa expressUITests.release.xcconfig */,
+				7E900A1FFC588851D173C49C /* Pods-Costa expressTests.debug.xcconfig */,
+				85A0D21E5F9ABE52528E1A53 /* Pods-Costa expressTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C7871F9E27E3F2BB00C189B1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +151,8 @@
 				C7871FC027E3F2BF00C189B1 /* Costa expressTests */,
 				C7871FCB27E3F2BF00C189B1 /* Costa expressUITests */,
 				C7871FA827E3F2BC00C189B1 /* Products */,
+				6831ED9F2681A8770713B880 /* Pods */,
+				2E4B15B1B8D080044FA4D10B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +171,17 @@
 			children = (
 				C7871FAA27E3F2BC00C189B1 /* AppDelegate.swift */,
 				C7871FAC27E3F2BC00C189B1 /* SceneDelegate.swift */,
-				C7871FAE27E3F2BC00C189B1 /* ViewController.swift */,
+				C7871FDE27E56C7A00C189B1 /* RegisterViewController.swift */,
+				C7871FDC27E5463700C189B1 /* MainViewController.swift */,
+				C73765A927E6C80700CB9790 /* LoginViewController.swift */,
+				C77BFF4627E8B71F00186853 /* RecoverViewController.swift */,
 				C7871FB027E3F2BC00C189B1 /* Main.storyboard */,
+				94FE92F628BD78E100B8F282 /* TrackingViewController.swift */,
+				94AF061F28B9B11500FB82E7 /* LocationService.swift */,
+				9436D37B28BAAD3E00A430A6 /* CheckPermisscionViewController.swift */,
 				C7871FB327E3F2BE00C189B1 /* Assets.xcassets */,
 				C7871FB527E3F2BE00C189B1 /* LaunchScreen.storyboard */,
+				C77BFF4327E7F8C000186853 /* GoogleService-Info.plist */,
 				C7871FB827E3F2BE00C189B1 /* Info.plist */,
 			);
 			path = "Costa express";
@@ -135,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7871FD127E3F2BF00C189B1 /* Build configuration list for PBXNativeTarget "Costa express" */;
 			buildPhases = (
+				3A064E4D631B05E292F9A579 /* [CP] Check Pods Manifest.lock */,
 				C7871FA327E3F2BC00C189B1 /* Sources */,
 				C7871FA427E3F2BC00C189B1 /* Frameworks */,
 				C7871FA527E3F2BC00C189B1 /* Resources */,
+				63F7CC170DB95BD7E2A211B9 /* [CP] Embed Pods Frameworks */,
+				9437B4B828BC3C180036F4EB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7871FD427E3F2BF00C189B1 /* Build configuration list for PBXNativeTarget "Costa expressTests" */;
 			buildPhases = (
+				8E4954CEF26DC8C734D52D6E /* [CP] Check Pods Manifest.lock */,
 				C7871FB927E3F2BF00C189B1 /* Sources */,
 				C7871FBA27E3F2BF00C189B1 /* Frameworks */,
 				C7871FBB27E3F2BF00C189B1 /* Resources */,
@@ -170,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7871FD727E3F2BF00C189B1 /* Build configuration list for PBXNativeTarget "Costa expressUITests" */;
 			buildPhases = (
+				A2826DAE2952BEAC0F1D18F9 /* [CP] Check Pods Manifest.lock */,
 				C7871FC427E3F2BF00C189B1 /* Sources */,
 				C7871FC527E3F2BF00C189B1 /* Frameworks */,
 				C7871FC627E3F2BF00C189B1 /* Resources */,
+				F64EAA8A21976A0D99E98D91 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,7 +291,7 @@
 				};
 			};
 			buildConfigurationList = C7871FA227E3F2BB00C189B1 /* Build configuration list for PBXProject "Costa express" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -233,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7871FB727E3F2BE00C189B1 /* LaunchScreen.storyboard in Resources */,
+				C77BFF4427E7F8C000186853 /* GoogleService-Info.plist in Resources */,
 				C7871FB427E3F2BE00C189B1 /* Assets.xcassets in Resources */,
 				C7871FB227E3F2BC00C189B1 /* Main.storyboard in Resources */,
 			);
@@ -242,6 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77BFF4527E7F8C000186853 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +339,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A064E4D631B05E292F9A579 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Costa express-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63F7CC170DB95BD7E2A211B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Costa express/Pods-Costa express-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Costa express/Pods-Costa express-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Costa express/Pods-Costa express-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E4954CEF26DC8C734D52D6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Costa expressTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2826DAE2952BEAC0F1D18F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Costa express-Costa expressUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F64EAA8A21976A0D99E98D91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Costa express-Costa expressUITests/Pods-Costa express-Costa expressUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Costa express-Costa expressUITests/Pods-Costa express-Costa expressUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Costa express-Costa expressUITests/Pods-Costa express-Costa expressUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7871FA327E3F2BC00C189B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7871FAF27E3F2BC00C189B1 /* ViewController.swift in Sources */,
+				C73765AA27E6C80800CB9790 /* LoginViewController.swift in Sources */,
+				94FE92F728BD78E100B8F282 /* TrackingViewController.swift in Sources */,
+				C7871FDF27E56C7A00C189B1 /* RegisterViewController.swift in Sources */,
+				C77BFF4727E8B71F00186853 /* RecoverViewController.swift in Sources */,
 				C7871FAB27E3F2BC00C189B1 /* AppDelegate.swift in Sources */,
+				9436D37C28BAAD3E00A430A6 /* CheckPermisscionViewController.swift in Sources */,
 				C7871FAD27E3F2BC00C189B1 /* SceneDelegate.swift in Sources */,
+				94AF062028B9B11500FB82E7 /* LocationService.swift in Sources */,
+				C7871FDD27E5463700C189B1 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,16 +626,24 @@
 		};
 		C7871FD227E3F2BF00C189B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77795ABE4CB47B50FBAF395F /* Pods-Costa express.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = D8CGVF7GUR;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Costa express/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.GAI.Costa-express";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,16 +651,24 @@
 		};
 		C7871FD327E3F2BF00C189B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB0D76B29CDB4B9A788C582 /* Pods-Costa express.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = D8CGVF7GUR;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Costa express/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.GAI.Costa-express";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +676,7 @@
 		};
 		C7871FD527E3F2BF00C189B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E900A1FFC588851D173C49C /* Pods-Costa expressTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +698,7 @@
 		};
 		C7871FD627E3F2BF00C189B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A0D21E5F9ABE52528E1A53 /* Pods-Costa expressTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +720,7 @@
 		};
 		C7871FD827E3F2BF00C189B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F37DEBDF1A52E009891FB89 /* Pods-Costa express-Costa expressUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +740,7 @@
 		};
 		C7871FD927E3F2BF00C189B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971CA6A14696C3050DAF21B5 /* Pods-Costa express-Costa expressUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
